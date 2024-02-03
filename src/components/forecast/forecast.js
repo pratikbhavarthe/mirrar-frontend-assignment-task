@@ -28,7 +28,7 @@ const Forecast = ({ data }) => {
   return (
     <>
       <div className="five-days">
-        <h1 className="title">5-Days forecast</h1>
+        <h1 className="title">Five Days Forecast</h1>
       </div>
       <Accordion allowZeroExpanded>
         {data.list

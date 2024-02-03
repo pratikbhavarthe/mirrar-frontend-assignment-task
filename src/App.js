@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="Search">
       <h1 className="heading">
-        Weather Dashboard
+        Weather Forecast
       </h1>
       <div className="container">
         <Search
