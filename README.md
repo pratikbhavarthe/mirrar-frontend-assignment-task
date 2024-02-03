@@ -1,65 +1,47 @@
-﻿# Weather Forecast App
- Welcome to the Weather Forecast App! This single-page application allows users to easily check the current weather and a 5-day forecast for any city around the world. The application is built using ReactJS and utilizes a public API  OpenWeatherMap API, GeoDB Cities API) to fetch weather data.
+﻿Weather App
 
- Features
-1. Current Weather Details
--Enter a city name to view the current weather details, including:
--Current temperature
--Minimum and maximum temperature
--Humidity
--Wind speed and direction
--Description of the weather (e.g., clear sky, light rain, etc.)
--An appropriate icon reflecting the current weather
+As per the task delegated by Mirrar, create a weather forecast application built with React.js that enables users to check the current weather details and a five-day forecast for a selected city.
 
-2. 5-Day Forecast
--View a 5-day forecast for the selected city, displaying:
--Average temperature
--Description of the weather
--An appropriate weather icon
+Table of Contents
+Features
+Installation
+Environment Variables
+Usage
+Live Demo
+Features
+Current Weather Details:
 
-3. Temperature Units
-View temperature details in both Celsius and Fahrenheit.
-Toggle between these units with a user-friendly option.
+Current temperature
+Minimum and maximum temperature
+Humidity
+Wind speed and direction
+Description of the weather
+Appropriate icon reflecting the current weather
+5-Day Forecast:
 
-### Deployment
+Date
+Average temperature
+Description of the weather
+Appropriate weather icon
 
+View weather details in both Celsius and Fahrenheit
+Responsive design for both desktop and mobile:
 
+User-friendly interface with clear error handling( using react-toastify):
 
-# Getting Started with Create React App
+Installation
+Clone the repository:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+git clone https://github.com/your-username/your-repo.git
+Change to the project directory:
 
-## Available Scripts
+cd your-repo
+Install dependencies:
+npm install
+Environment Variables
+Create a .env file in the root folder and add the following variables:
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-
-
-
+Usage
+After setting up the environment variables, you can run the application:
+npm start
+Visit http://localhost:3000 in your browser to view the app.
